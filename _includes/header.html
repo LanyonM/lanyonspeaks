@@ -1,0 +1,32 @@
+<header>
+  <div class="content">
+    <div class="grid3 first">
+      <h1>
+        <a href="{{ site.url }}{{ site.baseurl }}/">
+          <span>Richard Lanyon</span>
+          <!-- <img src="{{ site.url }}/img/logo-2x.png" width="249px" height="115px" alt=""> -->
+        </a>
+      </h1>
+    </div>
+    <nav class="grid8">
+      <ul>
+        <li {% if page.section == 'books' %}class="current"{% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/build-canal-save-chicago/overview/">Books</a>
+        </li>
+        <li {% if page.section == 'appearances' %}class="current"{% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/appearances/speaking/">Appearances</a>
+        </li>
+        <li {% if page.section == 'bio' %}class="current"{% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/bio/">Bio</a>
+        </li>
+        <li {% if page.section == 'contact' %}class="current"{% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/contact/">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="grid1 author">
+      <img src="{{ site.url }}{{ site.baseurl }}/img/author.png" alt="Richard Lanyon" />
+    </div>
+    <div class="clear"></div>
+  </div>
+</header>
