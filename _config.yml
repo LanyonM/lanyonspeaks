@@ -6,4 +6,4 @@ permalink: /:categories/:title
 safe: true
 lsi: false
 
-google_analytics_id: null
+google_analytics_id: UA-37974956-1
