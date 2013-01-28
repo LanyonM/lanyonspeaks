@@ -3,5 +3,7 @@ server: true
 permalink: /:categories/:title
 baseurl: /lanyonspeaks
 # url: http://localhost:4000
+safe: true
+lsi: false
 
 google_analytics_id: null
