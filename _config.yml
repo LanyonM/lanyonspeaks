@@ -1,9 +1,8 @@
-auto: true
-server: true
 permalink: /:categories/:title
 # baseurl: /lanyonspeaks
 # url: http://localhost:4000
 safe: true
 lsi: false
+pygments: true
 
 google_analytics_id: UA-37974956-1
